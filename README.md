@@ -12,6 +12,7 @@ By releasing a focused MVP early, StudySync enables rapid user feedback, minimiz
 - [Bree Choi](https://github.com/bree2-c)
 - [Syed Naqvi](https://github.com/syed1naqvi)
 - [MarcAnthony Williams](https://github.com/MarcAnthonyWilliams)
+- [Nafis Zaman](https://github.com/nafiszaman3)
 
 ## Project Background 
 StudySync was created as a student driven project to address the challenge many college students face when trying to find compatible study partners in large and busy academic environments. The idea originated from personal experiences of struggling to coordinate study sessions with peers who had different schedules, learning styles, or expectations. We hope that this project grow into an intentional effort to design a practical and user-centered tool that promotes collaboration and academic success.
