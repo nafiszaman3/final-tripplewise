@@ -37,6 +37,63 @@
 - During critical periods (ex.deadlines, releases), faster responses may be expected.
 - If a member will be unavailable, they should notify the team in advance.
 
+## Git Workflow
+
+### Cloning the Repository
+Each team member must clone the repository to their local machine before starting development.
+```
+git clone https://github.com/<organization-name>/<repository-name>.git
+cd <repository-name>
+```
+
+### Branches
+Each team member must create their own branch for any work.
+```
+git checkout -b feature/short-description
+```
+
+### Updating Repository
+After making the desired changes:
+```
+git add .
+git commit -m "Clear and descriptive commit message"
+```
+Commit messages must be concise but clearly describe what was changed.
+
+### Pushing Your Branch
+Push your branch to GitHub:
+```
+git push origin feature/short-description
+```
+
+### Creating a Pull Request
+1. Go to the repository on GitHub
+2. Click Compare & pull request
+3. Ensure base branch = `main` and compare branch = your branch
+4. Provide a clear description
+5. Link any related issues
+6. Submit the pull request
+7. Delete the branch you created if your work for that feature is completed
+
+### Pull Request Review Policy
+- At least one other team member must review and approve the PR.
+- All CI checks must pass before merging.
+- Address any requested changes before merging.
+
+### Keep Your Main Branch Updated
+Before starting new work:
+```
+git checkout main
+git pull origin main
+```
+Then create a new branch from the updated main.
+
+### Important Rules
+- Do not merge directly to `main`
+- Do not merge without review
+- Keep PRs small and focused
+- Delete branches after merging
+
 ## Sprint Cadence
 
 ### Sprint Length
@@ -66,5 +123,11 @@ During each standup, team members will briefly report:
 - This policy exists to surface blockers early and support accountability, not to assign blame.
 
 ## Coding Standards 
-- **Code Editor**: TBD
+- **Code Editor**: VS Code
 - **Code Linter**: TBD 
+
+## Setting up Local Development Environment
+*Information will be added once basic setup is complete.*
+
+## Building and Testing
+*Information will be added once basic setup is complete.*
